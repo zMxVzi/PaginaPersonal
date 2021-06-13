@@ -1,0 +1,101 @@
+body{
+    font-family: 'opens sans';
+}
+nav{
+    top:0;
+    position: sticky;
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: rgb(9, 255, 0);
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+nav > a:hover{
+   text-decoration: underline;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color:rgb(255, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contenedor-texto{
+    width: 48%;
+}
+.contenido-texto p{
+    color: white;
+    padding: 0px 0px 30px 15px;
+}
+table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin:auto;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px red;
+}
+h1{
+    text-align: center;
+}
+caption{
+    padding-top: 20px;
+    font-style: italic;
+}
+td{
+    color: white;
+}
+th{
+    background: black;
+    color: white;
+}
+td,th{
+    border: 2px solid red;
+    padding: 20px 20px 10px 10px;
+    
+}
+.seccion1{
+    background: url(../rc/20200519_174020_opt.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.seccion2{
+    background: url(../rc/juegosm_opt.jpg);
+    background-size:contain;
+    background-attachment: fixed;
+    position: relative;
+}
+.seccion3{
+    background: url(../rc/peliculasm+.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.seccion4{
+    background: url(../rc/WhatsApp\ Image\ 2021-06-12\ at\ 12_opt.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.seccion5{
+    background: url(../rc/istockphoto-875209398-170667a.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
